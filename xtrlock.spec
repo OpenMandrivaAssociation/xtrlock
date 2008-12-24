@@ -7,6 +7,7 @@ Release:	%{mkrel 1}
 Group:		Graphical desktop/Other
 URL:		http://packages.debian.org/sid/xtrlock
 BuildRequires:	libx11-devel
+BuildRequires:	imake
 License:	GPLv2+
 Source0:	http://ftp.de.debian.org/debian/pool/main/x/%{name}/%{name}_%{debver}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
