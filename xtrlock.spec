@@ -3,7 +3,7 @@
 Summary:	Minimal X display lock program
 Name:		xtrlock
 Version:	2.0
-Release:	%{mkrel 1}
+Release:	%{mkrel 2}
 Group:		Graphical desktop/Other
 URL:		http://packages.debian.org/sid/xtrlock
 BuildRequires:	libx11-devel
