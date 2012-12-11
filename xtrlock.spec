@@ -65,3 +65,16 @@ rm -rf %{buildroot}
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1*
 %{_datadir}/applications/mandriva-%{name}.desktop
+
+
+%changelog
+* Mon Sep 21 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.0-2mdv2010.0
++ Revision: 446272
+- rebuild
+
+* Wed Dec 24 2008 Adam Williamson <awilliamson@mandriva.org> 2.0-1mdv2009.1
++ Revision: 318409
+- buildrequires imake
+- import xtrlock
+
+
