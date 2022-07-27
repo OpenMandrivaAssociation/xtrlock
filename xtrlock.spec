@@ -9,7 +9,7 @@ URL:		http://packages.debian.org/sid/xtrlock
 BuildRequires:	libx11-devel
 BuildRequires:	imake
 License:	GPLv2+
-Source0:	http://ftp.de.debian.org/debian/pool/main/x/%{name}/%{name}_2.15tar.gz
+Source0:	http://ftp.de.debian.org/debian/pool/main/x/%{name}/%{name}_2.15.tar.xz
 
 %description
 xtrlock is a very minimal X display lock program, which uses nothing
