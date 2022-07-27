@@ -6,7 +6,7 @@ Version:	2.15
 Release:	1
 Group:		Graphical desktop/Other
 URL:		http://packages.debian.org/sid/xtrlock
-BuildRequires:	libx11-devel
+BuildRequires:	pkgconfig(x11)
 BuildRequires:	imake
 License:	GPLv2+
 Source0:	http://ftp.de.debian.org/debian/pool/main/x/%{name}/%{name}_2.15.tar.xz
