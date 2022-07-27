@@ -1,16 +1,15 @@
-%define debver	2.0-13
+
 
 Summary:	Minimal X display lock program
 Name:		xtrlock
-Version:	2.0
-Release:	%{mkrel 2}
+Version:	2.15
+Release:	1
 Group:		Graphical desktop/Other
 URL:		http://packages.debian.org/sid/xtrlock
 BuildRequires:	libx11-devel
 BuildRequires:	imake
 License:	GPLv2+
-Source0:	http://ftp.de.debian.org/debian/pool/main/x/%{name}/%{name}_%{debver}.tar.gz
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+Source0:	http://ftp.de.debian.org/debian/pool/main/x/%{name}/%{name}_2.15tar.gz
 
 %description
 xtrlock is a very minimal X display lock program, which uses nothing
