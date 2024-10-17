@@ -5,7 +5,7 @@ Name:		xtrlock
 Version:	2.15
 Release:	1
 Group:		Graphical desktop/Other
-URL:		http://packages.debian.org/sid/xtrlock
+URL:		https://packages.debian.org/sid/xtrlock
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	imake
 License:	GPLv2+
