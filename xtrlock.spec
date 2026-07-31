@@ -2,14 +2,14 @@
 
 Summary:	Minimal X display lock program
 Name:		xtrlock
-Version:	2.15
+Version:	2.18
 Release:	1
 Group:		Graphical desktop/Other
 URL:		https://packages.debian.org/sid/xtrlock
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	imake
 License:	GPLv2+
-Source0:	http://ftp.de.debian.org/debian/pool/main/x/%{name}/%{name}_2.15.tar.xz
+Source0:	http://ftp.de.debian.org/debian/pool/main/x/%{name}/%{name}_2.18.tar.xz
 
 %description
 xtrlock is a very minimal X display lock program, which uses nothing
